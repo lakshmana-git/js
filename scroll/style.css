@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    background-color: black;
+     /* position: relative; */
+   
+  }
+  
+  .left {
+    width: 200px; 
+     height: 300px;
+    background-color: lightblue;
+    padding: 20px;
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+
+  
+  }
+  
+  .right {
+   
+    flex: 1; /* This allows the right div to take up remaining space */
+    margin-left: 200px; /* Margin to push the right div to the right of the fixed left div */
+    background-color: lightgreen;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .next-section {
+    /* Styles for the next section */
+  }
+  
+  #div1{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+  }
+
+  .div2{
+    width: 500px;
+    margin-top: 500px;
+    height: 500px;
+    background-color:rgb(29, 129, 21);
+  }
